@@ -11,7 +11,7 @@ jobs:
       - name: update code and containers
         run: |
           sudo docker image prune -f
-          cd ~/symfony_docker/docker/
+          cd ~/projet/symfony_docker/docker/
           sudo docker-compose down
           cd ..
           git fetch origin
